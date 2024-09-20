@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red{
+    width:45vh;
+    height: 30vh;
+    background-color: #dd0f0f;
+    border-radius: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2.2vh 2.2vh rgba(83, 82, 82, 0.63);
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codeforces
+{
+    display:flex;
+    align-items:baseline;
+}    
+
+.yellow{
+    width:5.5vh;
+    height:12vh;
+    background:linear-gradient(#fcd675,#f5c537) ;
+    border-radius: 1.4vh;
+    box-shadow: 0.5vh 0.5vh 1vh 0vh;
+}
+.blue{
+    width:5.5vh;
+    height:17vh;
+    background:linear-gradient(#1c97d3,#127fc2);
+    margin-inline:1.5vh;
+    border-radius: 1.4vh;
+    box-shadow: 0.5vh 0.5vh 1vh 0vh;
+    
+}
+.red{
+    width:5.5vh;
+    height:9.5vh;
+    background:linear-gradient(#be2026,#ab1e24);
+    border-radius: 1.4vh;
+    box-shadow: 0.5vh 0.5vh 1vh 0vh;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <div class="plus">
+            <div class="pl">+</div>
+        </div>
+        <div class="equal">
+            <div class="eq">=</div>
+        </div>
+    </div>
+</div>
+     <style>
+     body{
+        background-color: rgb(73, 73, 73);
+    }
+    .container{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        min-height: 100vh;  /* an very imp line */
+        /*    display:grid;
+        place-items: center; */
+    }
+    .logo{
+        background-color: rgb(255, 255, 255);
+        height: 250px;
+        width: 250px;   
+        border-radius:80px;
+        font-size:70px;
+        box-shadow:#424242 5px 5px 10px 5px;
+    }
+    
+    .plus{
+         background-color: #2c2a2a;
+        transform: translate(25px,60%);
+        /* margin-top: 75px;
+        margin-left: 25px; */
+        height: 115px;
+        width: 115px;   
+        border-radius:50%;
+    }
+    .plus .pl{
+        transform: translate(35%,18px);
+        color: #ffffff;
+    }
+    .equal{
+        background-color: #f1853c;
+        transform: translate(110px,-40%);
+        height: 115px;
+        width: 115px;   
+        border-radius:50%;
+    }
+    .equal .eq{
+        transform: translate(35%,18px);
+        color: #ffffff;
+    }</style>
+</body>
+</html>
